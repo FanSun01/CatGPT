@@ -12,7 +12,6 @@ if (clientConfig is null) throw new Exception("Config is empty or incorrect");
 
 var chatGpt = new ChatGpt(new ChatGptConfig
 {
-    // BypassNode = "https://socket.pawan.krd",
     UseCache = false
 });
 
